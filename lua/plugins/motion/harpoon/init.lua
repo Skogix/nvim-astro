@@ -11,7 +11,7 @@ return {
         opts = function(_, opts)
           local maps = opts.mappings
           local term_string = vim.fn.exists "$TMUX" == 1 and "tmux" or "term"
-          local prefix = "<Leader><Leader>"
+          local prefix = "<Leader>"
           maps.n[prefix] = { desc = require("astroui").get_icon("Harpoon", 1, true) .. "Harpoon" }
 
           maps.n[prefix .. "a"] = { function() require("harpoon"):list():add() end, desc = "Add file" }

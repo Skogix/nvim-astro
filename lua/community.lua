@@ -54,4 +54,5 @@ return {
   { import = "astrocommunity.diagnostics.trouble-nvim" },
   { import = "astrocommunity.debugging.telescope-dap-nvim" },
   -- completion
+  { import = "astrocommunity.completion.tabby-nvim" },
 }

@@ -35,6 +35,7 @@ return {
   { import = "astrocommunity.pack.wgsl" },
   { import = "astrocommunity.pack.yaml" },
   { import = "astrocommunity.pack.zig" },
+  { import = "astrocommunity.programming-language-support/dooku-nvim" },
   { import = "astrocommunity.git.neogit" },
   { import = "astrocommunity.motion.harpoon" },
   -- { import = "astrocommunity.motion.marks-nvim" },

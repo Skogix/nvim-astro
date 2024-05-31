@@ -17,5 +17,14 @@ return {
       },
     },
   },
-  require("gitsigns").setup(),
+  -- require("gitsigns").setup(),
+  -- {
+  --   "neovim/nvim-lspconfig",
+  --   config = function()
+  --     require "plugins.configs.lspconfig"
+  --     require "custom.configs.lspconfig"
+  --   end,
+  -- },
+  -- { "ionide/Ionide-vim" },
+  { "adelarsq/neofsharp.vim" },
 }
